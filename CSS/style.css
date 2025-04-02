@@ -1,0 +1,300 @@
+#heading {
+    text-align: center;
+    text-decoration: underline;
+    font-weight:bold;
+    font-size: 25px; /* Set a readable font size */
+    line-height: 1.6; /* Increase space between lines for readability */
+    color: rgb(5, 5, 83); /* Dark gray for readability (better than pure black) */
+    font-family: 'Arial', sans-serif; /* Use a clean, modern font */
+    text-align: justify; /* Align text evenly for a clean look */
+    margin: 10px 450px;
+}
+
+
+/* General Navigation Bar Styling */
+nav {
+    background-color: #2c3e50; /* Dark Blue */
+    padding: 10px 0;
+    position: sticky; /* Keeps the navbar at the top */
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Ensures it stays above other content */
+}
+
+/* Style the unordered list */
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center the menu items */
+}
+
+/* Style the list items */
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* Style the links */
+nav ul li a {
+    text-decoration: none; /* Remove underlines */
+    font-size: 18px;
+    font-weight: bold;
+    color: white; /* White text */
+    padding: 10px 15px;
+    transition: 0.3s ease-in-out;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+    background-color: #1abc9c; /* Light Green */
+    border-radius: 5px;
+    color: blue; /* Dark blue for contrast */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+
+#paragraph {
+    /* General Paragraph Styling */
+    font-size: 18px; /* Set a readable font size */
+    line-height: 1.6; /* Increase space between lines for readability */
+    color: #333; /* Dark gray for readability (better than pure black) */
+    font-family: 'Arial', sans-serif; /* Use a clean, modern font */
+    text-align: justify; /* Align text evenly for a clean look */
+    margin-bottom: 15px; /* Add space between paragraphs */
+    max-width: 80%; /* Restrict paragraph width to avoid overly wide text */
+    margin-left: auto; /* Center-align within container */
+    margin-right: auto;
+}
+
+/* Responsive Paragraphs for Mobile */
+@media (max-width: 768px) {
+    p {
+        font-size: 16px; /* Slightly reduce font size for small screens */
+        max-width: 95%; /* Allow text to expand more on small screens */
+    }
+}
+
+
+#topic {
+    /* General Topic Styling */
+    font-size: 20px; /* Set a readable font size */
+    line-height: 1.6; /* Increase space between lines for readability */
+    color: #333; /* Dark gray for readability (better than pure black) */
+    font-family: 'Arial', sans-serif; /* Use a clean, modern font */
+    text-align: justify;
+    text-decoration: underline;
+    margin-bottom: 15px; /* Add space between paragraphs */
+    max-width: 80%; /* Restrict paragraph width to avoid overly wide text */
+    margin-left: auto; /* Center-align within container */
+    margin-right: auto;
+}
+/* Responsive Topics for Mobile */  
+@media (max-width: 768px) {
+    #topic {
+        font-size: 18px; /* Slightly reduce font size for small screens */
+        max-width: 95%; /* Allow text to expand more on small screens */
+    }
+}
+
+
+#list {
+    /* General List Styling */
+    font-size: 18px; /* Set a readable font size */
+    line-height: 1.6; /* Increase space between lines for readability */
+    color: #333; /* Dark gray for readability (better than pure black) */
+    font-family: 'Arial', sans-serif; /* Use a clean, modern font */
+    text-align: justify; /* Align text evenly for a clean look */
+    margin-bottom: 15px; /* Add space between paragraphs */
+    max-width: 80%; /* Restrict paragraph width to avoid overly wide text */
+    margin-left: auto; /* Center-align within container */
+    margin-right: auto;
+    list-style-type: square; /* Square bullets for lists */
+}
+/* Responsive Lists for Mobile */
+@media (max-width: 768px) {
+    #list {
+        font-size: 16px; /* Slightly reduce font size for small screens */
+        max-width: 95%; /* Allow text to expand more on small screens */
+    }
+}
+
+
+/* Style the CV Download Link */
+#cv-link {
+    display: inline-block; /* Makes it look like a button */
+    font-size: 18px; /* Readable text size */
+    font-weight: bold;
+    color: whitesmoke; /* White text */
+    background-color: rgb(6, 90, 79); /* Green background */
+    border: none;
+    margin-bottom: 15px; /* Add space between paragraphs */
+    max-width: 80%; /* Restrict paragraph width to avoid overly wide text */
+    margin-left: 140px; /* Center-align within container */
+    margin-right: auto;
+    border-radius: 10px; /* Smooth rounded corners */
+    transition: 0.3s ease-in-out;
+    text-align: center;
+}
+
+/* Hover Effect */
+#cv-link:hover {
+    background-color: rgb(46, 7, 138); /* Darker green on hover */
+}
+
+
+/* Styling the Projects Section */
+#topic {
+    font-size: 28px; /* Increase heading size */
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Add space below the heading */
+    color: #2c3e50; /* Dark blue for a professional look */
+}
+
+/* Style the unordered list */
+section ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+    max-width: 80%; /* Restrict width to prevent overly wide text */
+    margin: 0 auto; /* Center the list */
+}
+
+/* Style each list item */
+section ul li {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 10px 15px; /* Add spacing */
+    margin-bottom: 10px; /* Space between items */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Style the project links */
+section ul li a {
+    font-weight: bold; /* Make the project name stand out */
+    text-decoration: none; /* Remove underlines */
+    color: #1abc9c; /* Light green for contrast */
+    transition: 0.3s ease-in-out;
+}
+
+/* Hover effect on links */
+section ul li a:hover {
+    color: #16a085; /* Darker green on hover */
+    text-decoration: underline;
+}
+
+/* Responsive Styling for Smaller Screens */
+@media (max-width: 768px) {
+    section ul {
+        max-width: 95%; /* Expand width on mobile */
+    }
+    #topic {
+        font-size: 24px; /* Reduce heading size */
+    }
+}
+
+
+/*styling the contact section*/
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text */
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Contact Form Styling */
+.contact-form {
+    max-width: 500px; /* Restrict width */
+    margin: 40px auto; /* Center the form */
+    padding: 20px;
+    background-color: white; /* White background */
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Input Fields & Textarea */
+.input-field {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+/* Add focus effect */
+.input-field:focus {
+    border-color: #1abc9c; /* Light green */
+    outline: none;
+}
+
+/* Adjust textarea height */
+.textarea-field {
+    height: 120px;
+    resize: none; /* Prevent resizing */
+}
+
+/* Submit Button */
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1abc9c; /* Green theme */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #16a085; /* Darker green */
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #2c3e50; /* Dark blue */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+/* Footer Links */
+.footer-link {
+    color: #1abc9c; /* Light green */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    .contact-form {
+        width: 90%; /* Expand width on mobile */
+    }
+    .input-field, .textarea-field, .submit-button {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+}
